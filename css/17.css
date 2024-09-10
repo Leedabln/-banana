@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+* {
+    margin:0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    background-color: none;
+    color:inherit;
+}
+.section {
+    width: 1280px;
+    background:url(/마루이/img/마루이-배경.jpg) center center / cover no-repeat;
+    margin: 0 auto;
+    
+}
+.section h1 {
+    font-size: 100px;
+    text-align: center;
+}
+.section p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section .item_list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section .item_list .item {
+    width: 416px;
+    height: 538px;
+    
+}
+.section .item_list .item img {
+    width: 100%;
+    height: 100%;
+}
+.section_2 {
+    width: 1280px;
+    background:url(/마루이/img/마루이-배경.jpg) center center / cover no-repeat;
+    margin: 0 auto;
+    text-align: center ;
+    margin-top: 30px;
+}
+.section_2 h1 {
+    font-size: 100px;
+    text-align: center;
+    
+}
+.section_2 p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.section_2 .item_list_02 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    
+    
+}
+.section_2 .item_list_02 .item_02 {
+    width: 416px;
+  
+}
+.section_2 .item_list_02 .item_02 .image_02 {
+      height: 416px;
+}
+.section_2 .item_list_02 .item_02 .text h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.section_2 .item_list_02 .item_02 .text p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+.section_2 .item_list_02 .item_02 .text st
+
